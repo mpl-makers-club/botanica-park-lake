@@ -1,0 +1,36 @@
+/* for iPhone-sized devices */
+@media only screen and (max-device-width: 480px) {
+    #maindiv{
+      width:100%;
+    }
+}
+
+/* for normal computer browsers */
+@media screen and (min-width: 800px) {
+    #maindiv{
+      width:50%;
+    }
+}
+
+
+#maindiv{
+    margin:auto;
+    background-color:darkblue;
+    color:white;
+    border-radius:20px;
+    border:2px solid black;
+    padding:20px;
+    font-family:Verdana;
+    text-align:center;
+    font-size: 26px;
+}
+
+a:link {
+    color: red;
+}
+
+a:visited {
+    color: green;
+}
+
+

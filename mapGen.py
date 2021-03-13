@@ -16,7 +16,8 @@ for line in gpsData:
             latitude = float(line[2])
             longitude = float(line[3])
             count = int(line[4])
-
+            
+            dateList.append(date)
             latitudeList.append(latitude)
             longitudeList.append(longitude)
             countList.append(count)
@@ -26,7 +27,7 @@ m = folium.Map(location=[float(latitudeList[0]), float(longitudeList[0])],zoom_s
 for i in range(len(latitudeList)):
                folium.Marker([float(latitudeList[i]),
                               float(longitudeList[i])],
-                             popup='{} pieces of litter detected'.format(countList[i])).add_to(m)
+                             popup='Litter collected on {}'.format(dateList[i])).add_to(m)
                print('Marker {} added to map'.format(i+1))
 
 m.save('dataLitterMap.html')

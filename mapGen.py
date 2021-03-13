@@ -21,7 +21,7 @@ for line in gpsData:
             longitudeList.append(longitude)
             countList.append(count)
 
-m = folium.Map(location=[float(latitudeList[0]), float(longitudeList[0])],zoom_start=13)
+m = folium.Map(location=[float(latitudeList[0]), float(longitudeList[0])],zoom_start=15)
                          
 for i in range(len(latitudeList)):
                folium.Marker([float(latitudeList[i]),

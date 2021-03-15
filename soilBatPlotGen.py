@@ -8,11 +8,26 @@ print(df)
 
 fig = go.Figure()
 
+
 fig.add_trace(go.Scatter(x=df.date, y=df['bat'], name="SoilBat",
+                         marker=dict(
+                             color="LightSkyBlue",
+                             size=20,
+                             line=dict(
+                                 color="mediumPurple",
+                                 width=2
+                            )),
                          line_color='deepskyblue'))
 
-fig.update_layout(title_text='Botanica Park Soil Sensor Battery Voltage',
-                  xaxis_rangeslider_visible=False)
+fig.update_layout(
+    title_text='Botanica Park Soil Moisture Sensor Battery',
+    xaxis_title="Time",
+    yaxis_title="Battery",
+    font=dict(
+        size=26,
+        color="RebeccaPurple"
+        ),
+    xaxis_rangeslider_visible=False)
 
 
 plotly.offline.plot(fig,

@@ -22,8 +22,11 @@ for line in gpsData:
             longitudeList.append(longitude)
             countList.append(count)
 
-m = folium.Map(location=[float(latitudeList[0]), float(longitudeList[0])],zoom_start=17)
-                         
+#m = folium.Map(location=[float(latitudeList[0]), float(longitudeList[0])],zoom_start=17)
+m = folium.Map(location=[float(latitudeList[len(latitudeList)-1]),
+                               float(longitudeList[len(longitudeList)-1])],
+                               zoom_start=17)
+                           
 for i in range(len(latitudeList)):
                folium.Marker([float(latitudeList[i]),
                               float(longitudeList[i])],
@@ -31,6 +34,7 @@ for i in range(len(latitudeList)):
                print('Marker {} added to map'.format(i+1))
 
 m.save('dataLitterMap.html')
+print("Map created")
 
         
 

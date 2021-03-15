@@ -23,9 +23,10 @@ for line in gpsData:
             countList.append(count)
 
 #m = folium.Map(location=[float(latitudeList[0]), float(longitudeList[0])],zoom_start=17)
-m = folium.Map(location=[float(latitudeList[len(latitudeList)-1]),
-                               float(longitudeList[len(longitudeList)-1])],
-                               zoom_start=17)
+#m = folium.Map(location=[float(latitudeList[len(latitudeList)-1]),float(longitudeList[len(longitudeList)-1])],zoom_start=17)
+# GPS data location for Botanica Park Lake -37.679585,145.053497
+m = folium.Map(location=[float(-37.679585), float(145.053497)],zoom_start=17)
+
                            
 for i in range(len(latitudeList)):
                folium.Marker([float(latitudeList[i]),

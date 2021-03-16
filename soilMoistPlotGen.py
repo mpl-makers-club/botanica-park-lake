@@ -8,7 +8,10 @@ print(df)
 
 fig = go.Figure()
 
-fig.add_trace(go.Scatter(x=df.date, y=df['soil'], name="Soil",
+fig.add_trace(go.Scatter(mode='markers',
+                         x=df.date,
+                         y=df['soil'],
+                         name="Soil",
                          marker=dict(
                              color="LightSkyBlue",
                              size=20,

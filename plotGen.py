@@ -9,14 +9,18 @@ print(df)
 fig = go.Figure()
 
 
-fig.add_trace(go.Scatter(x=df.date, y=df['count'], name="Count",
+fig.add_trace(go.Scatter(mode='markers',
+                         x=df.date,
+                         y=df['count'],
+                         name="Count",
                          marker=dict(
                              color="LightSkyBlue",
                              size=20,
-                             line=dict(
+                            line=dict(
                                  color="mediumPurple",
                                  width=2
-                            ))))
+                            )),
+                         line_color='deepskyblue'))
 
 fig.update_layout(
     title_text='Botanica Park Daily Litter Count',

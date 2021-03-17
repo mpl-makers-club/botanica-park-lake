@@ -3,18 +3,12 @@
     #maindiv{
       width:100%;
     }
-    table {
-      width:100%;
-    }
 }
 
 /* for normal computer browsers */
 @media screen and (min-width: 800px) {
     #maindiv{
       width:50%;
-    }
-    table {
-      width:100%;
     }
 }
 
@@ -49,7 +43,7 @@ td, th {
         border: 1px solid #999;
         padding: 0.5rem;
         text-align: left;
-        font-size: 20px;
+        font-size: 22px;
 }
 
 

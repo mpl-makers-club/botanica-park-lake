@@ -3,12 +3,18 @@
     #maindiv{
       width:100%;
     }
+    table {
+      width:100%;
+    }
 }
 
 /* for normal computer browsers */
 @media screen and (min-width: 800px) {
     #maindiv{
       width:50%;
+    }
+    table {
+      width:100%;
     }
 }
 

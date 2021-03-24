@@ -12,25 +12,38 @@
     }
 }
 
+h1 {
+    text-align: center;
+    padding-top: 10vh;
+}
+
+h1 a:link {
+    color: white;
+}
+
+h1 a:visited {
+    color: white;
+}
 
 #maindiv{
     margin:auto;
+
     background-color:darkblue;
     color:white;
     border-radius:20px;
     border:2px solid black;
     padding:20px;
     font-family:Verdana;
-    text-align:center;
+    text-align:left;
     font-size: 26px;
 }
 
 a:link {
-    color: white;
+    color: black;
 }
 
 a:visited {
-    color: white;
+    color: black;
 }
 
 table {
@@ -48,5 +61,22 @@ td, th {
 
 
     
+button {
+    font-size: 30px!important;
 
+}
 
+nav {width: 100%;}
+
+/*nav {
+    width: 100%;
+    height: 10vh;
+    position: fixed!important;
+    top: 0;
+    left: 0;
+}*/
+
+/*
+.container-fluid {
+    background-color: #f8f9fa!important;
+}*/

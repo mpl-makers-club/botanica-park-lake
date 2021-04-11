@@ -64,7 +64,7 @@ with open("BOM.json", "r") as json_file:
                     print("Tank volume required is " + str(max_rain * ROOF_AREA) + "L")
                     
                 if len(list_data) == 2:
-                    # e.g. 3 mm
+                    # e.g. 3 mm - not sure if this is required
                     print("The forecast rain is " + list_data[0])
         except:
             print("*** Check BOM.JSON - data format has changed ***")

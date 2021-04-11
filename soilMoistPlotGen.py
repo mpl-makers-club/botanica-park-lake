@@ -24,7 +24,7 @@ fig.add_trace(go.Scatter(mode='markers',
 fig.update_layout(
     title_text='Botanica Park Soil Moisture Sensor',
     xaxis_title="Time",
-    yaxis_title="Moisture",
+    yaxis_title="Moisture kPa 20-35ok,>60Dry",
     font=dict(
         size=26,
         color="RebeccaPurple"

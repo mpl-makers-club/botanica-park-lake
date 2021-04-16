@@ -1,6 +1,7 @@
+# file atm_sensor_get.py
 import requests
-import html
-r = requests.get("https://app.alphax.cloud/api/WHI?tag=WHI-WTR06")
+#import html
+#r = requests.get("https://app.alphax.cloud/api/WHI?tag=WHI-WTR06")
 
 #print("Water level")
 #print(r)

@@ -22,9 +22,9 @@ fig.add_trace(go.Scatter(mode='markers',
                          line_color='deepskyblue'))
 
 fig.update_layout(
-    title_text='Rainwater Tank Water Level Available',
+    title_text='Rainwater Tank Water Level',
     xaxis_title="Time",
-    yaxis_title="Tank Level Available (cm)",
+    yaxis_title="Tank Level (m)",
     font=dict(
         size=26,
         color="RebeccaPurple"

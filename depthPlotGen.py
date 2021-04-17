@@ -33,6 +33,6 @@ fig.update_layout(
 
 
 plotly.offline.plot(fig,
-                    filename="/home/pi/botanica-park-lake/waterDepthPlot.html",
+                    filename="/home/pi/botanica-park-lake/depthWaterPlot.html",
                     auto_open=False)
-print("water depth plotted")
+print("depth of water plotted")

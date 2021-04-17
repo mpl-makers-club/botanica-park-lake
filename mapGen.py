@@ -1,4 +1,9 @@
 import folium
+import datetime
+
+now = datetime.datetime.now()
+date_stamp = now.strftime("%Y-%b-%d")
+
 with open('data.txt') as file:
     gpsData = str(file.read()).split('\n')
 dateList = []
@@ -29,10 +34,22 @@ m = folium.Map(location=[float(-37.679585), float(145.053497)],zoom_start=17)
 
                            
 for i in range(len(latitudeList)):
-               folium.Marker([float(latitudeList[i]),
-                              float(longitudeList[i])],
-                             popup='Litter collected on {}'.format(dateList[i])).add_to(m)
-               print('Marker {} added to map'.format(i+1))
+    print("Dates")
+    print(dateList[i])
+    print(date_stamp)
+    if date_stamp == dateList[i]:
+
+        folium.Marker([float(latitudeList[i]),
+                       float(longitudeList[i])],
+                      popup='Litter collected on {}'.format(dateList[i]),
+                      icon=folium.Icon(color='green')).add_to(m)
+        print('Today - Marker {} added to map'.format(i+1))
+    else:
+        folium.Marker([float(latitudeList[i]),
+                       float(longitudeList[i])],
+                      popup='Litter collected on {}'.format(dateList[i]),
+                      icon=folium.Icon(color='gray')).add_to(m)
+        print('Old data - Marker {} added to map'.format(i+1))
 
 m.save('dataLitterMap.html')
 print("Map created")

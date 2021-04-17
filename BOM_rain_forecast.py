@@ -43,7 +43,7 @@ with open("BOM.json", "r") as json_file:
 
     rain_forecast_list = [0,0,0,0,0,0,0]
     tank_required_list = [0,0,0,0,0,0,0]
-    for i in range(1,8):
+    for i in range(0,8):
         try:
             print("Day ", i)
             type_data = data['product']['forecast']['area'][2]['forecast-period'][i]['element'][1]['@type']
@@ -61,7 +61,7 @@ with open("BOM.json", "r") as json_file:
                     tank_required_list[i-1] = tank_required
                     print("The min rain is " + list_data[0])
                     print("The max rain is " + list_data[2])
-                    print("Tank volume required is " + str(max_rain * ROOF_AREA) + "L")
+                    #print("Tank volume required is " + str(max_rain * ROOF_AREA) + "L")
                     
                 if len(list_data) == 2:
                     # e.g. 3 mm - not sure if this is required

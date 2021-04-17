@@ -24,7 +24,7 @@ fig.add_trace(go.Scatter(mode='markers',
 fig.update_layout(
     title_text='Rainwater Tank Water Level',
     xaxis_title="Time",
-    yaxis_title="Tank Level (m)",
+    yaxis_title="Tank Level (cm)",
     font=dict(
         size=26,
         color="RebeccaPurple"

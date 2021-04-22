@@ -9,14 +9,14 @@
             <disclaimer>http://www.bom.gov.au/other/disclaimer.shtml</disclaimer>
         </source>
         <identifier>IDV10450</identifier>
-        <issue-time-utc>2021-04-22T06:20:00Z</issue-time-utc>
-        <issue-time-local tz="EST">2021-04-22T16:20:00+10:00</issue-time-local>
-        <sent-time>2021-04-22T06:20:07Z</sent-time>
-        <expiry-time>2021-04-23T06:20:00Z</expiry-time>
-        <validity-bgn-time-local tz="EST">2021-04-22T16:20:08+10:00</validity-bgn-time-local>
+        <issue-time-utc>2021-04-22T19:05:00Z</issue-time-utc>
+        <issue-time-local tz="EST">2021-04-23T05:05:00+10:00</issue-time-local>
+        <sent-time>2021-04-22T19:05:07Z</sent-time>
+        <expiry-time>2021-04-23T19:05:00Z</expiry-time>
+        <validity-bgn-time-local tz="EST">2021-04-23T00:00:00+10:00</validity-bgn-time-local>
         <validity-end-time-local tz="EST">2021-04-29T23:59:59+10:00</validity-end-time-local>
-        <next-routine-issue-time-utc>2021-04-22T19:05:00Z</next-routine-issue-time-utc>
-        <next-routine-issue-time-local tz="EST">2021-04-23T05:05:00+10:00</next-routine-issue-time-local>
+        <next-routine-issue-time-utc>2021-04-23T06:20:00Z</next-routine-issue-time-utc>
+        <next-routine-issue-time-local tz="EST">2021-04-23T16:20:00+10:00</next-routine-issue-time-local>
         <status>O</status>
         <service>WSP</service>
         <sub-service>FCT</sub-service>
@@ -25,54 +25,45 @@
     </amoc>
     <forecast>
         <area aac="VIC_FA001" description="Victoria" type="region">
-            <forecast-period start-time-local="2021-04-22T16:20:08+10:00" end-time-local="2021-04-22T16:20:08+10:00" start-time-utc="2021-04-22T06:20:08Z" end-time-utc="2021-04-22T06:20:08Z">
+            <forecast-period start-time-local="2021-04-23T05:05:07+10:00" end-time-local="2021-04-23T05:05:07+10:00" start-time-utc="2021-04-22T19:05:07Z" end-time-utc="2021-04-22T19:05:07Z">
                 <text type="warning_summary_footer">For latest warnings go to www.bom.gov.au, subscribe to RSS feeds, call 1300 659 210* or listen for warnings on relevant TV and radio broadcasts.</text>
                 <text type="product_footer">* Calls to 1300 numbers cost around 27.5c incl. GST, higher from mobiles or public phones.</text>
             </forecast-period>
         </area>
         <area aac="VIC_ME001" description="Melbourne" type="metropolitan" parent-aac="VIC_FA001">
-            <forecast-period index="0" start-time-local="2021-04-22T17:00:00+10:00" end-time-local="2021-04-23T00:00:00+10:00" start-time-utc="2021-04-22T07:00:00Z" end-time-utc="2021-04-22T14:00:00Z">
-                <text type="forecast">Cloudy. Slight (20%) chance of a shower. Winds westerly 15 to 20 km/h.</text>
-            </forecast-period>
-            <forecast-period index="1" start-time-local="2021-04-23T00:00:00+10:00" end-time-local="2021-04-24T00:00:00+10:00" start-time-utc="2021-04-22T14:00:00Z" end-time-utc="2021-04-23T14:00:00Z">
-                <text type="forecast">Mostly cloudy. High (70%) chance of showers in the southeast suburbs, medium (50%) chance elsewhere. Winds westerly 15 to 25 km/h becoming light in the late afternoon.</text>
+            <forecast-period index="0" start-time-local="2021-04-23T00:00:00+10:00" end-time-local="2021-04-24T00:00:00+10:00" start-time-utc="2021-04-22T14:00:00Z" end-time-utc="2021-04-23T14:00:00Z">
+                <text type="forecast">Cloudy. Medium (60%) chance of showers over the southeast suburbs grading to a slight (30%) chance over the western suburbs, becoming less likely this evening. Winds westerly 15 to 25 km/h becoming light in the late afternoon.</text>
                 <text type="fire_danger">Low-Moderate</text>
                 <text type="uv_alert">Sun protection 10:40am to 2:00pm, UV Index predicted to reach 4 [Moderate]</text>
             </forecast-period>
-            <forecast-period index="2" start-time-local="2021-04-24T00:00:00+10:00" end-time-local="2021-04-25T00:00:00+10:00" start-time-utc="2021-04-23T14:00:00Z" end-time-utc="2021-04-24T14:00:00Z">
+            <forecast-period index="1" start-time-local="2021-04-24T00:00:00+10:00" end-time-local="2021-04-25T00:00:00+10:00" start-time-utc="2021-04-23T14:00:00Z" end-time-utc="2021-04-24T14:00:00Z">
                 <text type="forecast">Cloudy. High (80%) chance of showers in the southeast suburbs, medium (60%) chance elsewhere. Winds northwesterly 15 to 20 km/h turning westerly 15 to 25 km/h in the late morning.</text>
             </forecast-period>
-            <forecast-period index="3" start-time-local="2021-04-25T00:00:00+10:00" end-time-local="2021-04-26T00:00:00+10:00" start-time-utc="2021-04-24T14:00:00Z" end-time-utc="2021-04-25T14:00:00Z">
+            <forecast-period index="2" start-time-local="2021-04-25T00:00:00+10:00" end-time-local="2021-04-26T00:00:00+10:00" start-time-utc="2021-04-24T14:00:00Z" end-time-utc="2021-04-25T14:00:00Z">
                 <text type="forecast">Partly cloudy. High (80%) chance of showers about the Dandenongs, medium (60%) chance elsewhere. Winds westerly 15 to 20 km/h tending southwesterly during the day then becoming light during the afternoon.</text>
             </forecast-period>
-            <forecast-period index="4" start-time-local="2021-04-26T00:00:00+10:00" end-time-local="2021-04-27T00:00:00+10:00" start-time-utc="2021-04-25T14:00:00Z" end-time-utc="2021-04-26T14:00:00Z">
+            <forecast-period index="3" start-time-local="2021-04-26T00:00:00+10:00" end-time-local="2021-04-27T00:00:00+10:00" start-time-utc="2021-04-25T14:00:00Z" end-time-utc="2021-04-26T14:00:00Z">
                 <text type="forecast">The chance of morning fog in the northeast suburbs. Partly cloudy day. Medium (50%) chance of showers in the southeast suburbs, slight (20%) chance elsewhere. Light winds.</text>
             </forecast-period>
-            <forecast-period index="5" start-time-local="2021-04-27T00:00:00+10:00" end-time-local="2021-04-28T00:00:00+10:00" start-time-utc="2021-04-26T14:00:00Z" end-time-utc="2021-04-27T14:00:00Z">
+            <forecast-period index="4" start-time-local="2021-04-27T00:00:00+10:00" end-time-local="2021-04-28T00:00:00+10:00" start-time-utc="2021-04-26T14:00:00Z" end-time-utc="2021-04-27T14:00:00Z">
                 <text type="forecast">Partly cloudy. Light winds.</text>
             </forecast-period>
-            <forecast-period index="6" start-time-local="2021-04-28T00:00:00+10:00" end-time-local="2021-04-29T00:00:00+10:00" start-time-utc="2021-04-27T14:00:00Z" end-time-utc="2021-04-28T14:00:00Z">
+            <forecast-period index="5" start-time-local="2021-04-28T00:00:00+10:00" end-time-local="2021-04-29T00:00:00+10:00" start-time-utc="2021-04-27T14:00:00Z" end-time-utc="2021-04-28T14:00:00Z">
                 <text type="forecast">Partly cloudy. Light winds.</text>
             </forecast-period>
-            <forecast-period index="7" start-time-local="2021-04-29T00:00:00+10:00" end-time-local="2021-04-30T00:00:00+10:00" start-time-utc="2021-04-28T14:00:00Z" end-time-utc="2021-04-29T14:00:00Z">
+            <forecast-period index="6" start-time-local="2021-04-29T00:00:00+10:00" end-time-local="2021-04-30T00:00:00+10:00" start-time-utc="2021-04-28T14:00:00Z" end-time-utc="2021-04-29T14:00:00Z">
                 <text type="forecast">Partly cloudy. Light winds.</text>
             </forecast-period>
         </area>
         <area aac="VIC_PT042" description="Melbourne" type="location" parent-aac="VIC_ME001">
-            <forecast-period index="0" start-time-local="2021-04-22T17:00:00+10:00" end-time-local="2021-04-23T00:00:00+10:00" start-time-utc="2021-04-22T07:00:00Z" end-time-utc="2021-04-22T14:00:00Z">
-                <element type="forecast_icon_code">4</element>
-                <text type="precis">Cloudy.</text>
-                <text type="probability_of_precipitation">20%</text>
-            </forecast-period>
-            <forecast-period index="1" start-time-local="2021-04-23T00:00:00+10:00" end-time-local="2021-04-24T00:00:00+10:00" start-time-utc="2021-04-22T14:00:00Z" end-time-utc="2021-04-23T14:00:00Z">
+            <forecast-period index="0" start-time-local="2021-04-23T05:00:00+10:00" end-time-local="2021-04-24T00:00:00+10:00" start-time-utc="2021-04-22T19:00:00Z" end-time-utc="2021-04-23T14:00:00Z">
                 <element type="forecast_icon_code">11</element>
                 <element type="precipitation_range">0 to 1 mm</element>
-                <element type="air_temperature_minimum" units="Celsius">12</element>
                 <element type="air_temperature_maximum" units="Celsius">17</element>
                 <text type="precis">Shower or two.</text>
                 <text type="probability_of_precipitation">50%</text>
             </forecast-period>
-            <forecast-period index="2" start-time-local="2021-04-24T00:00:00+10:00" end-time-local="2021-04-25T00:00:00+10:00" start-time-utc="2021-04-23T14:00:00Z" end-time-utc="2021-04-24T14:00:00Z">
+            <forecast-period index="1" start-time-local="2021-04-24T00:00:00+10:00" end-time-local="2021-04-25T00:00:00+10:00" start-time-utc="2021-04-23T14:00:00Z" end-time-utc="2021-04-24T14:00:00Z">
                 <element type="forecast_icon_code">11</element>
                 <element type="precipitation_range">0 to 1 mm</element>
                 <element type="air_temperature_minimum" units="Celsius">11</element>
@@ -80,7 +71,7 @@
                 <text type="precis">Shower or two.</text>
                 <text type="probability_of_precipitation">60%</text>
             </forecast-period>
-            <forecast-period index="3" start-time-local="2021-04-25T00:00:00+10:00" end-time-local="2021-04-26T00:00:00+10:00" start-time-utc="2021-04-24T14:00:00Z" end-time-utc="2021-04-25T14:00:00Z">
+            <forecast-period index="2" start-time-local="2021-04-25T00:00:00+10:00" end-time-local="2021-04-26T00:00:00+10:00" start-time-utc="2021-04-24T14:00:00Z" end-time-utc="2021-04-25T14:00:00Z">
                 <element type="forecast_icon_code">11</element>
                 <element type="precipitation_range">0 to 1 mm</element>
                 <element type="air_temperature_minimum" units="Celsius">12</element>
@@ -88,28 +79,28 @@
                 <text type="precis">Shower or two.</text>
                 <text type="probability_of_precipitation">70%</text>
             </forecast-period>
-            <forecast-period index="4" start-time-local="2021-04-26T00:00:00+10:00" end-time-local="2021-04-27T00:00:00+10:00" start-time-utc="2021-04-25T14:00:00Z" end-time-utc="2021-04-26T14:00:00Z">
+            <forecast-period index="3" start-time-local="2021-04-26T00:00:00+10:00" end-time-local="2021-04-27T00:00:00+10:00" start-time-utc="2021-04-25T14:00:00Z" end-time-utc="2021-04-26T14:00:00Z">
                 <element type="forecast_icon_code">3</element>
                 <element type="air_temperature_minimum" units="Celsius">10</element>
                 <element type="air_temperature_maximum" units="Celsius">18</element>
                 <text type="precis">Partly cloudy.</text>
                 <text type="probability_of_precipitation">20%</text>
             </forecast-period>
-            <forecast-period index="5" start-time-local="2021-04-27T00:00:00+10:00" end-time-local="2021-04-28T00:00:00+10:00" start-time-utc="2021-04-26T14:00:00Z" end-time-utc="2021-04-27T14:00:00Z">
+            <forecast-period index="4" start-time-local="2021-04-27T00:00:00+10:00" end-time-local="2021-04-28T00:00:00+10:00" start-time-utc="2021-04-26T14:00:00Z" end-time-utc="2021-04-27T14:00:00Z">
                 <element type="forecast_icon_code">3</element>
                 <element type="air_temperature_minimum" units="Celsius">11</element>
                 <element type="air_temperature_maximum" units="Celsius">18</element>
                 <text type="precis">Partly cloudy.</text>
                 <text type="probability_of_precipitation">20%</text>
             </forecast-period>
-            <forecast-period index="6" start-time-local="2021-04-28T00:00:00+10:00" end-time-local="2021-04-29T00:00:00+10:00" start-time-utc="2021-04-27T14:00:00Z" end-time-utc="2021-04-28T14:00:00Z">
+            <forecast-period index="5" start-time-local="2021-04-28T00:00:00+10:00" end-time-local="2021-04-29T00:00:00+10:00" start-time-utc="2021-04-27T14:00:00Z" end-time-utc="2021-04-28T14:00:00Z">
                 <element type="forecast_icon_code">3</element>
                 <element type="air_temperature_minimum" units="Celsius">9</element>
                 <element type="air_temperature_maximum" units="Celsius">19</element>
                 <text type="precis">Partly cloudy.</text>
                 <text type="probability_of_precipitation">0%</text>
             </forecast-period>
-            <forecast-period index="7" start-time-local="2021-04-29T00:00:00+10:00" end-time-local="2021-04-30T00:00:00+10:00" start-time-utc="2021-04-28T14:00:00Z" end-time-utc="2021-04-29T14:00:00Z">
+            <forecast-period index="6" start-time-local="2021-04-29T00:00:00+10:00" end-time-local="2021-04-30T00:00:00+10:00" start-time-utc="2021-04-28T14:00:00Z" end-time-utc="2021-04-29T14:00:00Z">
                 <element type="forecast_icon_code">3</element>
                 <element type="air_temperature_minimum" units="Celsius">9</element>
                 <element type="air_temperature_maximum" units="Celsius">18</element>
@@ -118,50 +109,42 @@
             </forecast-period>
         </area>
         <area aac="VIC_PT025" description="Geelong" type="location" parent-aac="VIC_ME001">
-            <forecast-period index="1" start-time-local="2021-04-23T00:00:00+10:00" end-time-local="2021-04-24T00:00:00+10:00" start-time-utc="2021-04-22T14:00:00Z" end-time-utc="2021-04-23T14:00:00Z">
-                <element type="air_temperature_minimum" units="Celsius">10</element>
+            <forecast-period index="0" start-time-local="2021-04-23T05:00:00+10:00" end-time-local="2021-04-24T00:00:00+10:00" start-time-utc="2021-04-22T19:00:00Z" end-time-utc="2021-04-23T14:00:00Z">
                 <element type="air_temperature_maximum" units="Celsius">19</element>
             </forecast-period>
         </area>
         <area aac="VIC_PT037" description="Laverton" type="location" parent-aac="VIC_ME001">
-            <forecast-period index="1" start-time-local="2021-04-23T00:00:00+10:00" end-time-local="2021-04-24T00:00:00+10:00" start-time-utc="2021-04-22T14:00:00Z" end-time-utc="2021-04-23T14:00:00Z">
-                <element type="air_temperature_minimum" units="Celsius">10</element>
+            <forecast-period index="0" start-time-local="2021-04-23T05:00:00+10:00" end-time-local="2021-04-24T00:00:00+10:00" start-time-utc="2021-04-22T19:00:00Z" end-time-utc="2021-04-23T14:00:00Z">
                 <element type="air_temperature_maximum" units="Celsius">18</element>
             </forecast-period>
         </area>
         <area aac="VIC_PT073" description="Tullamarine" type="location" parent-aac="VIC_ME001">
-            <forecast-period index="1" start-time-local="2021-04-23T00:00:00+10:00" end-time-local="2021-04-24T00:00:00+10:00" start-time-utc="2021-04-22T14:00:00Z" end-time-utc="2021-04-23T14:00:00Z">
-                <element type="air_temperature_minimum" units="Celsius">10</element>
+            <forecast-period index="0" start-time-local="2021-04-23T05:00:00+10:00" end-time-local="2021-04-24T00:00:00+10:00" start-time-utc="2021-04-22T19:00:00Z" end-time-utc="2021-04-23T14:00:00Z">
                 <element type="air_temperature_maximum" units="Celsius">17</element>
             </forecast-period>
         </area>
         <area aac="VIC_PT065" description="Scoresby" type="location" parent-aac="VIC_ME001">
-            <forecast-period index="1" start-time-local="2021-04-23T00:00:00+10:00" end-time-local="2021-04-24T00:00:00+10:00" start-time-utc="2021-04-22T14:00:00Z" end-time-utc="2021-04-23T14:00:00Z">
-                <element type="air_temperature_minimum" units="Celsius">10</element>
+            <forecast-period index="0" start-time-local="2021-04-23T05:00:00+10:00" end-time-local="2021-04-24T00:00:00+10:00" start-time-utc="2021-04-22T19:00:00Z" end-time-utc="2021-04-23T14:00:00Z">
                 <element type="air_temperature_maximum" units="Celsius">17</element>
             </forecast-period>
         </area>
         <area aac="VIC_PT078" description="Watsonia" type="location" parent-aac="VIC_ME001">
-            <forecast-period index="1" start-time-local="2021-04-23T00:00:00+10:00" end-time-local="2021-04-24T00:00:00+10:00" start-time-utc="2021-04-22T14:00:00Z" end-time-utc="2021-04-23T14:00:00Z">
-                <element type="air_temperature_minimum" units="Celsius">10</element>
+            <forecast-period index="0" start-time-local="2021-04-23T05:00:00+10:00" end-time-local="2021-04-24T00:00:00+10:00" start-time-utc="2021-04-22T19:00:00Z" end-time-utc="2021-04-23T14:00:00Z">
                 <element type="air_temperature_maximum" units="Celsius">17</element>
             </forecast-period>
         </area>
         <area aac="VIC_PT047" description="Mount Dandenong" type="location" parent-aac="VIC_ME001">
-            <forecast-period index="1" start-time-local="2021-04-23T00:00:00+10:00" end-time-local="2021-04-24T00:00:00+10:00" start-time-utc="2021-04-22T14:00:00Z" end-time-utc="2021-04-23T14:00:00Z">
-                <element type="air_temperature_minimum" units="Celsius">7</element>
+            <forecast-period index="0" start-time-local="2021-04-23T05:00:00+10:00" end-time-local="2021-04-24T00:00:00+10:00" start-time-utc="2021-04-22T19:00:00Z" end-time-utc="2021-04-23T14:00:00Z">
                 <element type="air_temperature_maximum" units="Celsius">12</element>
             </forecast-period>
         </area>
         <area aac="VIC_PT082" description="Yarra Glen" type="location" parent-aac="VIC_ME001">
-            <forecast-period index="1" start-time-local="2021-04-23T00:00:00+10:00" end-time-local="2021-04-24T00:00:00+10:00" start-time-utc="2021-04-22T14:00:00Z" end-time-utc="2021-04-23T14:00:00Z">
-                <element type="air_temperature_minimum" units="Celsius">9</element>
+            <forecast-period index="0" start-time-local="2021-04-23T05:00:00+10:00" end-time-local="2021-04-24T00:00:00+10:00" start-time-utc="2021-04-22T19:00:00Z" end-time-utc="2021-04-23T14:00:00Z">
                 <element type="air_temperature_maximum" units="Celsius">17</element>
             </forecast-period>
         </area>
         <area aac="VIC_PT023" description="Frankston" type="location" parent-aac="VIC_ME001">
-            <forecast-period index="1" start-time-local="2021-04-23T00:00:00+10:00" end-time-local="2021-04-24T00:00:00+10:00" start-time-utc="2021-04-22T14:00:00Z" end-time-utc="2021-04-23T14:00:00Z">
-                <element type="air_temperature_minimum" units="Celsius">12</element>
+            <forecast-period index="0" start-time-local="2021-04-23T05:00:00+10:00" end-time-local="2021-04-24T00:00:00+10:00" start-time-utc="2021-04-22T19:00:00Z" end-time-utc="2021-04-23T14:00:00Z">
                 <element type="air_temperature_maximum" units="Celsius">17</element>
             </forecast-period>
         </area>

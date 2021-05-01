@@ -9,10 +9,10 @@
             <disclaimer>http://www.bom.gov.au/other/disclaimer.shtml</disclaimer>
         </source>
         <identifier>IDV10450</identifier>
-        <issue-time-utc>2021-05-01T19:05:00Z</issue-time-utc>
-        <issue-time-local tz="EST">2021-05-02T05:05:00+10:00</issue-time-local>
-        <sent-time>2021-05-01T19:05:06Z</sent-time>
-        <expiry-time>2021-05-02T19:05:00Z</expiry-time>
+        <issue-time-utc>2021-05-01T20:07:55Z</issue-time-utc>
+        <issue-time-local tz="EST">2021-05-02T06:07:55+10:00</issue-time-local>
+        <sent-time>2021-05-01T20:07:55Z</sent-time>
+        <expiry-time>2021-05-02T20:07:55Z</expiry-time>
         <validity-bgn-time-local tz="EST">2021-05-02T00:00:00+10:00</validity-bgn-time-local>
         <validity-end-time-local tz="EST">2021-05-08T23:59:59+10:00</validity-end-time-local>
         <next-routine-issue-time-utc>2021-05-02T06:20:00Z</next-routine-issue-time-utc>
@@ -21,18 +21,18 @@
         <service>WSP</service>
         <sub-service>FCT</sub-service>
         <product-type>F</product-type>
-        <phase>NEW</phase>
+        <phase>UPD</phase>
     </amoc>
     <forecast>
         <area aac="VIC_FA001" description="Victoria" type="region">
-            <forecast-period start-time-local="2021-05-02T05:05:07+10:00" end-time-local="2021-05-02T05:05:07+10:00" start-time-utc="2021-05-01T19:05:07Z" end-time-utc="2021-05-01T19:05:07Z">
+            <forecast-period start-time-local="2021-05-02T06:07:56+10:00" end-time-local="2021-05-02T06:07:56+10:00" start-time-utc="2021-05-01T20:07:56Z" end-time-utc="2021-05-01T20:07:56Z">
                 <text type="warning_summary_footer">For latest warnings go to www.bom.gov.au, subscribe to RSS feeds, call 1300 659 210* or listen for warnings on relevant TV and radio broadcasts.</text>
                 <text type="product_footer">* Calls to 1300 numbers cost around 27.5c incl. GST, higher from mobiles or public phones.</text>
             </forecast-period>
         </area>
         <area aac="VIC_ME001" description="Melbourne" type="metropolitan" parent-aac="VIC_FA001">
             <forecast-period index="0" start-time-local="2021-05-02T00:00:00+10:00" end-time-local="2021-05-03T00:00:00+10:00" start-time-utc="2021-05-01T14:00:00Z" end-time-utc="2021-05-02T14:00:00Z">
-                <text type="forecast">Partly cloudy. Medium (60%) chance of showers late this afternoon and evening. The chance of a thunderstorm late this afternoon and evening. Winds northerly 15 to 25 km/h, reaching 25 to 40 km/h in the late morning and early afternoon.</text>
+                <text type="forecast">Partly cloudy. Medium (60%) chance of showers in the late afternoon and evening. The chance of a thunderstorm in the late afternoon and evening. Winds northerly 15 to 25 km/h, reaching 25 to 40 km/h in the late morning and early afternoon.</text>
                 <text type="fire_danger">Low-Moderate</text>
                 <text type="uv_alert">Sun protection 11:00am to 1:40pm, UV Index predicted to reach 3 [Moderate]</text>
             </forecast-period>
@@ -56,11 +56,11 @@
             </forecast-period>
         </area>
         <area aac="VIC_PT042" description="Melbourne" type="location" parent-aac="VIC_ME001">
-            <forecast-period index="0" start-time-local="2021-05-02T05:00:00+10:00" end-time-local="2021-05-03T00:00:00+10:00" start-time-utc="2021-05-01T19:00:00Z" end-time-utc="2021-05-02T14:00:00Z">
+            <forecast-period index="0" start-time-local="2021-05-02T06:02:01+10:00" end-time-local="2021-05-03T00:00:00+10:00" start-time-utc="2021-05-01T20:02:01Z" end-time-utc="2021-05-02T14:00:00Z">
                 <element type="forecast_icon_code">16</element>
                 <element type="precipitation_range">0 to 1 mm</element>
                 <element type="air_temperature_maximum" units="Celsius">25</element>
-                <text type="precis">Shower or two developing. Possible storm.</text>
+                <text type="precis">Late shower or two. Possible storm.</text>
                 <text type="probability_of_precipitation">60%</text>
             </forecast-period>
             <forecast-period index="1" start-time-local="2021-05-03T00:00:00+10:00" end-time-local="2021-05-04T00:00:00+10:00" start-time-utc="2021-05-02T14:00:00Z" end-time-utc="2021-05-03T14:00:00Z">
@@ -117,37 +117,37 @@
             </forecast-period>
         </area>
         <area aac="VIC_PT037" description="Laverton" type="location" parent-aac="VIC_ME001">
-            <forecast-period index="0" start-time-local="2021-05-02T05:00:00+10:00" end-time-local="2021-05-03T00:00:00+10:00" start-time-utc="2021-05-01T19:00:00Z" end-time-utc="2021-05-02T14:00:00Z">
+            <forecast-period index="0" start-time-local="2021-05-02T06:02:01+10:00" end-time-local="2021-05-03T00:00:00+10:00" start-time-utc="2021-05-01T20:02:01Z" end-time-utc="2021-05-02T14:00:00Z">
                 <element type="air_temperature_maximum" units="Celsius">25</element>
             </forecast-period>
         </area>
         <area aac="VIC_PT073" description="Tullamarine" type="location" parent-aac="VIC_ME001">
-            <forecast-period index="0" start-time-local="2021-05-02T05:00:00+10:00" end-time-local="2021-05-03T00:00:00+10:00" start-time-utc="2021-05-01T19:00:00Z" end-time-utc="2021-05-02T14:00:00Z">
+            <forecast-period index="0" start-time-local="2021-05-02T06:02:01+10:00" end-time-local="2021-05-03T00:00:00+10:00" start-time-utc="2021-05-01T20:02:01Z" end-time-utc="2021-05-02T14:00:00Z">
                 <element type="air_temperature_maximum" units="Celsius">24</element>
             </forecast-period>
         </area>
         <area aac="VIC_PT065" description="Scoresby" type="location" parent-aac="VIC_ME001">
-            <forecast-period index="0" start-time-local="2021-05-02T05:00:00+10:00" end-time-local="2021-05-03T00:00:00+10:00" start-time-utc="2021-05-01T19:00:00Z" end-time-utc="2021-05-02T14:00:00Z">
+            <forecast-period index="0" start-time-local="2021-05-02T06:02:01+10:00" end-time-local="2021-05-03T00:00:00+10:00" start-time-utc="2021-05-01T20:02:01Z" end-time-utc="2021-05-02T14:00:00Z">
                 <element type="air_temperature_maximum" units="Celsius">25</element>
             </forecast-period>
         </area>
         <area aac="VIC_PT078" description="Watsonia" type="location" parent-aac="VIC_ME001">
-            <forecast-period index="0" start-time-local="2021-05-02T05:00:00+10:00" end-time-local="2021-05-03T00:00:00+10:00" start-time-utc="2021-05-01T19:00:00Z" end-time-utc="2021-05-02T14:00:00Z">
+            <forecast-period index="0" start-time-local="2021-05-02T06:02:01+10:00" end-time-local="2021-05-03T00:00:00+10:00" start-time-utc="2021-05-01T20:02:01Z" end-time-utc="2021-05-02T14:00:00Z">
                 <element type="air_temperature_maximum" units="Celsius">25</element>
             </forecast-period>
         </area>
         <area aac="VIC_PT047" description="Mount Dandenong" type="location" parent-aac="VIC_ME001">
-            <forecast-period index="0" start-time-local="2021-05-02T05:00:00+10:00" end-time-local="2021-05-03T00:00:00+10:00" start-time-utc="2021-05-01T19:00:00Z" end-time-utc="2021-05-02T14:00:00Z">
+            <forecast-period index="0" start-time-local="2021-05-02T06:02:01+10:00" end-time-local="2021-05-03T00:00:00+10:00" start-time-utc="2021-05-01T20:02:01Z" end-time-utc="2021-05-02T14:00:00Z">
                 <element type="air_temperature_maximum" units="Celsius">20</element>
             </forecast-period>
         </area>
         <area aac="VIC_PT082" description="Yarra Glen" type="location" parent-aac="VIC_ME001">
-            <forecast-period index="0" start-time-local="2021-05-02T05:00:00+10:00" end-time-local="2021-05-03T00:00:00+10:00" start-time-utc="2021-05-01T19:00:00Z" end-time-utc="2021-05-02T14:00:00Z">
+            <forecast-period index="0" start-time-local="2021-05-02T06:02:01+10:00" end-time-local="2021-05-03T00:00:00+10:00" start-time-utc="2021-05-01T20:02:01Z" end-time-utc="2021-05-02T14:00:00Z">
                 <element type="air_temperature_maximum" units="Celsius">25</element>
             </forecast-period>
         </area>
         <area aac="VIC_PT023" description="Frankston" type="location" parent-aac="VIC_ME001">
-            <forecast-period index="0" start-time-local="2021-05-02T05:00:00+10:00" end-time-local="2021-05-03T00:00:00+10:00" start-time-utc="2021-05-01T19:00:00Z" end-time-utc="2021-05-02T14:00:00Z">
+            <forecast-period index="0" start-time-local="2021-05-02T06:02:01+10:00" end-time-local="2021-05-03T00:00:00+10:00" start-time-utc="2021-05-01T20:02:01Z" end-time-utc="2021-05-02T14:00:00Z">
                 <element type="air_temperature_maximum" units="Celsius">24</element>
             </forecast-period>
         </area>

@@ -9,14 +9,14 @@
             <disclaimer>http://www.bom.gov.au/other/disclaimer.shtml</disclaimer>
         </source>
         <identifier>IDV10450</identifier>
-        <issue-time-utc>2021-05-08T06:20:00Z</issue-time-utc>
-        <issue-time-local tz="EST">2021-05-08T16:20:00+10:00</issue-time-local>
-        <sent-time>2021-05-08T06:20:05Z</sent-time>
-        <expiry-time>2021-05-09T06:20:00Z</expiry-time>
-        <validity-bgn-time-local tz="EST">2021-05-08T16:20:06+10:00</validity-bgn-time-local>
+        <issue-time-utc>2021-05-08T19:13:02Z</issue-time-utc>
+        <issue-time-local tz="EST">2021-05-09T05:13:02+10:00</issue-time-local>
+        <sent-time>2021-05-08T19:13:02Z</sent-time>
+        <expiry-time>2021-05-09T19:13:02Z</expiry-time>
+        <validity-bgn-time-local tz="EST">2021-05-09T00:00:00+10:00</validity-bgn-time-local>
         <validity-end-time-local tz="EST">2021-05-15T23:59:59+10:00</validity-end-time-local>
-        <next-routine-issue-time-utc>2021-05-08T19:05:00Z</next-routine-issue-time-utc>
-        <next-routine-issue-time-local tz="EST">2021-05-09T05:05:00+10:00</next-routine-issue-time-local>
+        <next-routine-issue-time-utc>2021-05-09T06:20:00Z</next-routine-issue-time-utc>
+        <next-routine-issue-time-local tz="EST">2021-05-09T16:20:00+10:00</next-routine-issue-time-local>
         <status>O</status>
         <service>WSP</service>
         <sub-service>FCT</sub-service>
@@ -25,53 +25,44 @@
     </amoc>
     <forecast>
         <area aac="VIC_FA001" description="Victoria" type="region">
-            <forecast-period start-time-local="2021-05-08T16:20:06+10:00" end-time-local="2021-05-08T16:20:06+10:00" start-time-utc="2021-05-08T06:20:06Z" end-time-utc="2021-05-08T06:20:06Z">
+            <forecast-period start-time-local="2021-05-09T05:13:03+10:00" end-time-local="2021-05-09T05:13:03+10:00" start-time-utc="2021-05-08T19:13:03Z" end-time-utc="2021-05-08T19:13:03Z">
                 <text type="warning_summary_footer">For latest warnings go to www.bom.gov.au, subscribe to RSS feeds, call 1300 659 210* or listen for warnings on relevant TV and radio broadcasts.</text>
                 <text type="product_footer">* Calls to 1300 numbers cost around 27.5c incl. GST, higher from mobiles or public phones.</text>
             </forecast-period>
         </area>
         <area aac="VIC_ME001" description="Melbourne" type="metropolitan" parent-aac="VIC_FA001">
-            <forecast-period index="0" start-time-local="2021-05-08T17:00:00+10:00" end-time-local="2021-05-09T00:00:00+10:00" start-time-utc="2021-05-08T07:00:00Z" end-time-utc="2021-05-08T14:00:00Z">
-                <text type="forecast">Cloudy. Medium (50%) chance of showers, becoming less likely later tonight. Light winds.</text>
-            </forecast-period>
-            <forecast-period index="1" start-time-local="2021-05-09T00:00:00+10:00" end-time-local="2021-05-10T00:00:00+10:00" start-time-utc="2021-05-08T14:00:00Z" end-time-utc="2021-05-09T14:00:00Z">
-                <text type="forecast">Partly cloudy. Areas of morning fog. Medium (50%) chance of showers in the eastern suburbs, slight (30%) chance elsewhere, most likely in the morning and early afternoon. Light winds becoming northwesterly 15 to 20 km/h in the middle of the day then becoming light in the late afternoon.</text>
+            <forecast-period index="0" start-time-local="2021-05-09T00:00:00+10:00" end-time-local="2021-05-10T00:00:00+10:00" start-time-utc="2021-05-08T14:00:00Z" end-time-utc="2021-05-09T14:00:00Z">
+                <text type="forecast">Partly cloudy. The chance of morning fog. Medium (40%) chance of showers in the northern and eastern suburbs, slight (20%) chance elsewhere, most likely in the morning and early afternoon. Light winds becoming northwesterly 15 to 20 km/h in the middle of the day then tending northerly in the late evening.</text>
                 <text type="uv_alert">Sun protection 11:40am to 1:00pm, UV Index predicted to reach 3 [Moderate]</text>
             </forecast-period>
-            <forecast-period index="2" start-time-local="2021-05-10T00:00:00+10:00" end-time-local="2021-05-11T00:00:00+10:00" start-time-utc="2021-05-09T14:00:00Z" end-time-utc="2021-05-10T14:00:00Z">
+            <forecast-period index="1" start-time-local="2021-05-10T00:00:00+10:00" end-time-local="2021-05-11T00:00:00+10:00" start-time-utc="2021-05-09T14:00:00Z" end-time-utc="2021-05-10T14:00:00Z">
                 <text type="forecast">Cloudy. Very high (95%) chance of showers, most likely from late morning onwards. Winds north to northwesterly 20 to 30 km/h shifting south to southwesterly 25 to 35 km/h in the middle of the day then decreasing to 15 to 25 km/h in the evening.</text>
             </forecast-period>
-            <forecast-period index="3" start-time-local="2021-05-11T00:00:00+10:00" end-time-local="2021-05-12T00:00:00+10:00" start-time-utc="2021-05-10T14:00:00Z" end-time-utc="2021-05-11T14:00:00Z">
+            <forecast-period index="2" start-time-local="2021-05-11T00:00:00+10:00" end-time-local="2021-05-12T00:00:00+10:00" start-time-utc="2021-05-10T14:00:00Z" end-time-utc="2021-05-11T14:00:00Z">
                 <text type="forecast">Cloudy. Slight (20%) chance of a shower. Winds southerly 15 to 20 km/h tending southeasterly 15 to 25 km/h during the morning then becoming light during the evening.</text>
             </forecast-period>
-            <forecast-period index="4" start-time-local="2021-05-12T00:00:00+10:00" end-time-local="2021-05-13T00:00:00+10:00" start-time-utc="2021-05-11T14:00:00Z" end-time-utc="2021-05-12T14:00:00Z">
+            <forecast-period index="3" start-time-local="2021-05-12T00:00:00+10:00" end-time-local="2021-05-13T00:00:00+10:00" start-time-utc="2021-05-11T14:00:00Z" end-time-utc="2021-05-12T14:00:00Z">
                 <text type="forecast">Areas of morning frost about the nearby hills. The chance of morning fog. Sunny day. Light winds becoming north to northeasterly 15 to 20 km/h during the day.</text>
             </forecast-period>
-            <forecast-period index="5" start-time-local="2021-05-13T00:00:00+10:00" end-time-local="2021-05-14T00:00:00+10:00" start-time-utc="2021-05-12T14:00:00Z" end-time-utc="2021-05-13T14:00:00Z">
+            <forecast-period index="4" start-time-local="2021-05-13T00:00:00+10:00" end-time-local="2021-05-14T00:00:00+10:00" start-time-utc="2021-05-12T14:00:00Z" end-time-utc="2021-05-13T14:00:00Z">
                 <text type="forecast">Partly cloudy. Slight (30%) chance of a shower, most likely later in the day. Winds northerly 15 to 25 km/h tending northwesterly 15 to 20 km/h later.</text>
             </forecast-period>
-            <forecast-period index="6" start-time-local="2021-05-14T00:00:00+10:00" end-time-local="2021-05-15T00:00:00+10:00" start-time-utc="2021-05-13T14:00:00Z" end-time-utc="2021-05-14T14:00:00Z">
+            <forecast-period index="5" start-time-local="2021-05-14T00:00:00+10:00" end-time-local="2021-05-15T00:00:00+10:00" start-time-utc="2021-05-13T14:00:00Z" end-time-utc="2021-05-14T14:00:00Z">
                 <text type="forecast">Cloudy. High (70%) chance of showers, most likely during the morning. Winds west to northwesterly 15 to 20 km/h turning southwesterly during the morning.</text>
             </forecast-period>
-            <forecast-period index="7" start-time-local="2021-05-15T00:00:00+10:00" end-time-local="2021-05-16T00:00:00+10:00" start-time-utc="2021-05-14T14:00:00Z" end-time-utc="2021-05-15T14:00:00Z">
+            <forecast-period index="6" start-time-local="2021-05-15T00:00:00+10:00" end-time-local="2021-05-16T00:00:00+10:00" start-time-utc="2021-05-14T14:00:00Z" end-time-utc="2021-05-15T14:00:00Z">
                 <text type="forecast">Partly cloudy. Medium (50%) chance of showers. Winds south to southeasterly 15 to 20 km/h.</text>
             </forecast-period>
         </area>
         <area aac="VIC_PT042" description="Melbourne" type="location" parent-aac="VIC_ME001">
-            <forecast-period index="0" start-time-local="2021-05-08T17:00:00+10:00" end-time-local="2021-05-09T00:00:00+10:00" start-time-utc="2021-05-08T07:00:00Z" end-time-utc="2021-05-08T14:00:00Z">
-                <element type="forecast_icon_code">11</element>
-                <text type="precis">Shower or two.</text>
-                <text type="probability_of_precipitation">50%</text>
-            </forecast-period>
-            <forecast-period index="1" start-time-local="2021-05-09T00:00:00+10:00" end-time-local="2021-05-10T00:00:00+10:00" start-time-utc="2021-05-08T14:00:00Z" end-time-utc="2021-05-09T14:00:00Z">
+            <forecast-period index="0" start-time-local="2021-05-09T05:00:00+10:00" end-time-local="2021-05-10T00:00:00+10:00" start-time-utc="2021-05-08T19:00:00Z" end-time-utc="2021-05-09T14:00:00Z">
                 <element type="forecast_icon_code">3</element>
                 <element type="precipitation_range">0 to 0.4 mm</element>
-                <element type="air_temperature_minimum" units="Celsius">11</element>
                 <element type="air_temperature_maximum" units="Celsius">20</element>
                 <text type="precis">Partly cloudy.</text>
                 <text type="probability_of_precipitation">30%</text>
             </forecast-period>
-            <forecast-period index="2" start-time-local="2021-05-10T00:00:00+10:00" end-time-local="2021-05-11T00:00:00+10:00" start-time-utc="2021-05-09T14:00:00Z" end-time-utc="2021-05-10T14:00:00Z">
+            <forecast-period index="1" start-time-local="2021-05-10T00:00:00+10:00" end-time-local="2021-05-11T00:00:00+10:00" start-time-utc="2021-05-09T14:00:00Z" end-time-utc="2021-05-10T14:00:00Z">
                 <element type="forecast_icon_code">11</element>
                 <element type="precipitation_range">6 to 8 mm</element>
                 <element type="air_temperature_minimum" units="Celsius">13</element>
@@ -79,21 +70,21 @@
                 <text type="precis">Showers developing.</text>
                 <text type="probability_of_precipitation">95%</text>
             </forecast-period>
-            <forecast-period index="3" start-time-local="2021-05-11T00:00:00+10:00" end-time-local="2021-05-12T00:00:00+10:00" start-time-utc="2021-05-10T14:00:00Z" end-time-utc="2021-05-11T14:00:00Z">
+            <forecast-period index="2" start-time-local="2021-05-11T00:00:00+10:00" end-time-local="2021-05-12T00:00:00+10:00" start-time-utc="2021-05-10T14:00:00Z" end-time-utc="2021-05-11T14:00:00Z">
                 <element type="forecast_icon_code">4</element>
                 <element type="air_temperature_minimum" units="Celsius">10</element>
                 <element type="air_temperature_maximum" units="Celsius">15</element>
                 <text type="precis">Cloudy.</text>
                 <text type="probability_of_precipitation">20%</text>
             </forecast-period>
-            <forecast-period index="4" start-time-local="2021-05-12T00:00:00+10:00" end-time-local="2021-05-13T00:00:00+10:00" start-time-utc="2021-05-11T14:00:00Z" end-time-utc="2021-05-12T14:00:00Z">
+            <forecast-period index="3" start-time-local="2021-05-12T00:00:00+10:00" end-time-local="2021-05-13T00:00:00+10:00" start-time-utc="2021-05-11T14:00:00Z" end-time-utc="2021-05-12T14:00:00Z">
                 <element type="forecast_icon_code">3</element>
                 <element type="air_temperature_minimum" units="Celsius">5</element>
                 <element type="air_temperature_maximum" units="Celsius">18</element>
                 <text type="precis">Mostly sunny.</text>
                 <text type="probability_of_precipitation">0%</text>
             </forecast-period>
-            <forecast-period index="5" start-time-local="2021-05-13T00:00:00+10:00" end-time-local="2021-05-14T00:00:00+10:00" start-time-utc="2021-05-12T14:00:00Z" end-time-utc="2021-05-13T14:00:00Z">
+            <forecast-period index="4" start-time-local="2021-05-13T00:00:00+10:00" end-time-local="2021-05-14T00:00:00+10:00" start-time-utc="2021-05-12T14:00:00Z" end-time-utc="2021-05-13T14:00:00Z">
                 <element type="forecast_icon_code">17</element>
                 <element type="precipitation_range">0 to 1 mm</element>
                 <element type="air_temperature_minimum" units="Celsius">10</element>
@@ -101,7 +92,7 @@
                 <text type="precis">Possible shower.</text>
                 <text type="probability_of_precipitation">40%</text>
             </forecast-period>
-            <forecast-period index="6" start-time-local="2021-05-14T00:00:00+10:00" end-time-local="2021-05-15T00:00:00+10:00" start-time-utc="2021-05-13T14:00:00Z" end-time-utc="2021-05-14T14:00:00Z">
+            <forecast-period index="5" start-time-local="2021-05-14T00:00:00+10:00" end-time-local="2021-05-15T00:00:00+10:00" start-time-utc="2021-05-13T14:00:00Z" end-time-utc="2021-05-14T14:00:00Z">
                 <element type="forecast_icon_code">11</element>
                 <element type="precipitation_range">1 to 3 mm</element>
                 <element type="air_temperature_minimum" units="Celsius">11</element>
@@ -109,7 +100,7 @@
                 <text type="precis">Shower or two.</text>
                 <text type="probability_of_precipitation">70%</text>
             </forecast-period>
-            <forecast-period index="7" start-time-local="2021-05-15T00:00:00+10:00" end-time-local="2021-05-16T00:00:00+10:00" start-time-utc="2021-05-14T14:00:00Z" end-time-utc="2021-05-15T14:00:00Z">
+            <forecast-period index="6" start-time-local="2021-05-15T00:00:00+10:00" end-time-local="2021-05-16T00:00:00+10:00" start-time-utc="2021-05-14T14:00:00Z" end-time-utc="2021-05-15T14:00:00Z">
                 <element type="forecast_icon_code">11</element>
                 <element type="precipitation_range">0 to 2 mm</element>
                 <element type="air_temperature_minimum" units="Celsius">11</element>
@@ -119,50 +110,42 @@
             </forecast-period>
         </area>
         <area aac="VIC_PT025" description="Geelong" type="location" parent-aac="VIC_ME001">
-            <forecast-period index="1" start-time-local="2021-05-09T00:00:00+10:00" end-time-local="2021-05-10T00:00:00+10:00" start-time-utc="2021-05-08T14:00:00Z" end-time-utc="2021-05-09T14:00:00Z">
-                <element type="air_temperature_minimum" units="Celsius">8</element>
+            <forecast-period index="0" start-time-local="2021-05-09T05:00:00+10:00" end-time-local="2021-05-10T00:00:00+10:00" start-time-utc="2021-05-08T19:00:00Z" end-time-utc="2021-05-09T14:00:00Z">
                 <element type="air_temperature_maximum" units="Celsius">21</element>
             </forecast-period>
         </area>
         <area aac="VIC_PT037" description="Laverton" type="location" parent-aac="VIC_ME001">
-            <forecast-period index="1" start-time-local="2021-05-09T00:00:00+10:00" end-time-local="2021-05-10T00:00:00+10:00" start-time-utc="2021-05-08T14:00:00Z" end-time-utc="2021-05-09T14:00:00Z">
-                <element type="air_temperature_minimum" units="Celsius">9</element>
+            <forecast-period index="0" start-time-local="2021-05-09T05:00:00+10:00" end-time-local="2021-05-10T00:00:00+10:00" start-time-utc="2021-05-08T19:00:00Z" end-time-utc="2021-05-09T14:00:00Z">
                 <element type="air_temperature_maximum" units="Celsius">20</element>
             </forecast-period>
         </area>
         <area aac="VIC_PT073" description="Tullamarine" type="location" parent-aac="VIC_ME001">
-            <forecast-period index="1" start-time-local="2021-05-09T00:00:00+10:00" end-time-local="2021-05-10T00:00:00+10:00" start-time-utc="2021-05-08T14:00:00Z" end-time-utc="2021-05-09T14:00:00Z">
-                <element type="air_temperature_minimum" units="Celsius">9</element>
+            <forecast-period index="0" start-time-local="2021-05-09T05:00:00+10:00" end-time-local="2021-05-10T00:00:00+10:00" start-time-utc="2021-05-08T19:00:00Z" end-time-utc="2021-05-09T14:00:00Z">
                 <element type="air_temperature_maximum" units="Celsius">21</element>
             </forecast-period>
         </area>
         <area aac="VIC_PT065" description="Scoresby" type="location" parent-aac="VIC_ME001">
-            <forecast-period index="1" start-time-local="2021-05-09T00:00:00+10:00" end-time-local="2021-05-10T00:00:00+10:00" start-time-utc="2021-05-08T14:00:00Z" end-time-utc="2021-05-09T14:00:00Z">
-                <element type="air_temperature_minimum" units="Celsius">10</element>
+            <forecast-period index="0" start-time-local="2021-05-09T05:00:00+10:00" end-time-local="2021-05-10T00:00:00+10:00" start-time-utc="2021-05-08T19:00:00Z" end-time-utc="2021-05-09T14:00:00Z">
                 <element type="air_temperature_maximum" units="Celsius">20</element>
             </forecast-period>
         </area>
         <area aac="VIC_PT078" description="Watsonia" type="location" parent-aac="VIC_ME001">
-            <forecast-period index="1" start-time-local="2021-05-09T00:00:00+10:00" end-time-local="2021-05-10T00:00:00+10:00" start-time-utc="2021-05-08T14:00:00Z" end-time-utc="2021-05-09T14:00:00Z">
-                <element type="air_temperature_minimum" units="Celsius">10</element>
+            <forecast-period index="0" start-time-local="2021-05-09T05:00:00+10:00" end-time-local="2021-05-10T00:00:00+10:00" start-time-utc="2021-05-08T19:00:00Z" end-time-utc="2021-05-09T14:00:00Z">
                 <element type="air_temperature_maximum" units="Celsius">20</element>
             </forecast-period>
         </area>
         <area aac="VIC_PT047" description="Mount Dandenong" type="location" parent-aac="VIC_ME001">
-            <forecast-period index="1" start-time-local="2021-05-09T00:00:00+10:00" end-time-local="2021-05-10T00:00:00+10:00" start-time-utc="2021-05-08T14:00:00Z" end-time-utc="2021-05-09T14:00:00Z">
-                <element type="air_temperature_minimum" units="Celsius">7</element>
+            <forecast-period index="0" start-time-local="2021-05-09T05:00:00+10:00" end-time-local="2021-05-10T00:00:00+10:00" start-time-utc="2021-05-08T19:00:00Z" end-time-utc="2021-05-09T14:00:00Z">
                 <element type="air_temperature_maximum" units="Celsius">15</element>
             </forecast-period>
         </area>
         <area aac="VIC_PT082" description="Yarra Glen" type="location" parent-aac="VIC_ME001">
-            <forecast-period index="1" start-time-local="2021-05-09T00:00:00+10:00" end-time-local="2021-05-10T00:00:00+10:00" start-time-utc="2021-05-08T14:00:00Z" end-time-utc="2021-05-09T14:00:00Z">
-                <element type="air_temperature_minimum" units="Celsius">9</element>
+            <forecast-period index="0" start-time-local="2021-05-09T05:00:00+10:00" end-time-local="2021-05-10T00:00:00+10:00" start-time-utc="2021-05-08T19:00:00Z" end-time-utc="2021-05-09T14:00:00Z">
                 <element type="air_temperature_maximum" units="Celsius">20</element>
             </forecast-period>
         </area>
         <area aac="VIC_PT023" description="Frankston" type="location" parent-aac="VIC_ME001">
-            <forecast-period index="1" start-time-local="2021-05-09T00:00:00+10:00" end-time-local="2021-05-10T00:00:00+10:00" start-time-utc="2021-05-08T14:00:00Z" end-time-utc="2021-05-09T14:00:00Z">
-                <element type="air_temperature_minimum" units="Celsius">11</element>
+            <forecast-period index="0" start-time-local="2021-05-09T05:00:00+10:00" end-time-local="2021-05-10T00:00:00+10:00" start-time-utc="2021-05-08T19:00:00Z" end-time-utc="2021-05-09T14:00:00Z">
                 <element type="air_temperature_maximum" units="Celsius">19</element>
             </forecast-period>
         </area>

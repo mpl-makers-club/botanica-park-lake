@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<product version="1.7" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.bom.gov.au/schema/v1.7/product.xsd">
+    <amoc>
+        <source>
+            <sender>Australian Government Bureau of Meteorology</sender>
+            <region>Victoria</region>
+            <office>VICRO</office>
+            <copyright>http://www.bom.gov.au/other/copyright.shtml</copyright>
+            <disclaimer>http://www.bom.gov.au/other/disclaimer.shtml</disclaimer>
+        </source>
+        <identifier>IDV10450</identifier>
+        <issue-time-utc>2021-07-29T06:20:00Z</issue-time-utc>
+        <issue-time-local tz="EST">2021-07-29T16:20:00+10:00</issue-time-local>
+        <sent-time>2021-07-29T06:20:09Z</sent-time>
+        <expiry-time>2021-07-30T06:20:00Z</expiry-time>
+        <validity-bgn-time-local tz="EST">2021-07-29T16:20:09+10:00</validity-bgn-time-local>
+        <validity-end-time-local tz="EST">2021-08-05T23:59:59+10:00</validity-end-time-local>
+        <next-routine-issue-time-utc>2021-07-29T19:05:00Z</next-routine-issue-time-utc>
+        <next-routine-issue-time-local tz="EST">2021-07-30T05:05:00+10:00</next-routine-issue-time-local>
+        <status>O</status>
+        <service>WSP</service>
+        <sub-service>FCT</sub-service>
+        <product-type>F</product-type>
+        <phase>NEW</phase>
+    </amoc>
+    <forecast>
+        <area aac="VIC_FA001" description="Victoria" type="region">
+            <forecast-period start-time-local="2021-07-29T16:20:09+10:00" end-time-local="2021-07-29T16:20:09+10:00" start-time-utc="2021-07-29T06:20:09Z" end-time-utc="2021-07-29T06:20:09Z">
+                <text type="warning_summary_footer">For latest warnings go to www.bom.gov.au, subscribe to RSS feeds, call 1300 659 210* or listen for warnings on relevant TV and radio broadcasts.</text>
+                <text type="product_footer">* Calls to 1300 numbers cost around 27.5c incl. GST, higher from mobiles or public phones.</text>
+            </forecast-period>
+        </area>
+        <area aac="VIC_ME001" description="Melbourne" type="metropolitan" parent-aac="VIC_FA001">
+            <forecast-period index="0" start-time-local="2021-07-29T17:00:00+10:00" end-time-local="2021-07-30T00:00:00+10:00" start-time-utc="2021-07-29T07:00:00Z" end-time-utc="2021-07-29T14:00:00Z">
+                <text type="forecast">Cloud clearing. Winds northerly 20 to 30 km/h.</text>
+            </forecast-period>
+            <forecast-period index="1" start-time-local="2021-07-30T00:00:00+10:00" end-time-local="2021-07-31T00:00:00+10:00" start-time-utc="2021-07-29T14:00:00Z" end-time-utc="2021-07-30T14:00:00Z">
+                <text type="forecast">Mostly sunny morning. Becoming cloudy in the afternoon with a slight (30%) chance of a shower at night. Winds northerly 35 to 50 km/h.</text>
+                <text type="uv_alert">Sun protection not recommended, UV Index predicted to reach 2 [Low]</text>
+            </forecast-period>
+            <forecast-period index="2" start-time-local="2021-07-31T00:00:00+10:00" end-time-local="2021-08-01T00:00:00+10:00" start-time-utc="2021-07-30T14:00:00Z" end-time-utc="2021-07-31T14:00:00Z">
+                <text type="forecast">Partly cloudy. Medium (60%) chance of showers during the afternoon increasing to a very high (90%) chance of rain in the evening. Winds northerly 25 to 40 km/h turning northwesterly 15 to 20 km/h in the evening.</text>
+            </forecast-period>
+            <forecast-period index="3" start-time-local="2021-08-01T00:00:00+10:00" end-time-local="2021-08-02T00:00:00+10:00" start-time-utc="2021-07-31T14:00:00Z" end-time-utc="2021-08-01T14:00:00Z">
+                <text type="forecast">Partly cloudy. High (70%) chance of rain in the morning, easing to a slight (30%) chance of a shower during the afternoon. Winds northwesterly 15 to 20 km/h tending westerly during the day then becoming light during the afternoon.</text>
+            </forecast-period>
+            <forecast-period index="4" start-time-local="2021-08-02T00:00:00+10:00" end-time-local="2021-08-03T00:00:00+10:00" start-time-utc="2021-08-01T14:00:00Z" end-time-utc="2021-08-02T14:00:00Z">
+                <text type="forecast">Partly cloudy. The chance of morning fog about the Dandenongs. High (80%) chance of showers, most likely in the afternoon and evening. Winds northerly 15 to 25 km/h increasing to 25 to 40 km/h during the morning then turning northwesterly 20 to 30 km/h during the evening.</text>
+            </forecast-period>
+            <forecast-period index="5" start-time-local="2021-08-03T00:00:00+10:00" end-time-local="2021-08-04T00:00:00+10:00" start-time-utc="2021-08-02T14:00:00Z" end-time-utc="2021-08-03T14:00:00Z">
+                <text type="forecast">Cloudy. Very high (90%) chance of showers. Winds northwesterly 25 to 35 km/h.</text>
+            </forecast-period>
+            <forecast-period index="6" start-time-local="2021-08-04T00:00:00+10:00" end-time-local="2021-08-05T00:00:00+10:00" start-time-utc="2021-08-03T14:00:00Z" end-time-utc="2021-08-04T14:00:00Z">
+                <text type="forecast">Partly cloudy. High (80%) chance of showers. Winds northwesterly 15 to 25 km/h turning westerly 20 to 30 km/h during the day.</text>
+            </forecast-period>
+            <forecast-period index="7" start-time-local="2021-08-05T00:00:00+10:00" end-time-local="2021-08-06T00:00:00+10:00" start-time-utc="2021-08-04T14:00:00Z" end-time-utc="2021-08-05T14:00:00Z">
+                <text type="forecast">Cloudy. Very high (90%) chance of showers. Winds westerly 20 to 30 km/h tending northwesterly 15 to 20 km/h later.</text>
+            </forecast-period>
+        </area>
+        <area aac="VIC_PT042" description="Melbourne" type="location" parent-aac="VIC_ME001">
+            <forecast-period index="0" start-time-local="2021-07-29T17:00:00+10:00" end-time-local="2021-07-30T00:00:00+10:00" start-time-utc="2021-07-29T07:00:00Z" end-time-utc="2021-07-29T14:00:00Z">
+                <element type="forecast_icon_code">3</element>
+                <text type="precis">Cloud clearing.</text>
+                <text type="probability_of_precipitation">0%</text>
+            </forecast-period>
+            <forecast-period index="1" start-time-local="2021-07-30T00:00:00+10:00" end-time-local="2021-07-31T00:00:00+10:00" start-time-utc="2021-07-29T14:00:00Z" end-time-utc="2021-07-30T14:00:00Z">
+                <element type="forecast_icon_code">3</element>
+                <element type="precipitation_range">0 to 0.2 mm</element>
+                <element type="air_temperature_minimum" units="Celsius">8</element>
+                <element type="air_temperature_maximum" units="Celsius">15</element>
+                <text type="precis">Windy. Becoming cloudy.</text>
+                <text type="probability_of_precipitation">30%</text>
+            </forecast-period>
+            <forecast-period index="2" start-time-local="2021-07-31T00:00:00+10:00" end-time-local="2021-08-01T00:00:00+10:00" start-time-utc="2021-07-30T14:00:00Z" end-time-utc="2021-07-31T14:00:00Z">
+                <element type="forecast_icon_code">12</element>
+                <element type="precipitation_range">3 to 8 mm</element>
+                <element type="air_temperature_minimum" units="Celsius">11</element>
+                <element type="air_temperature_maximum" units="Celsius">19</element>
+                <text type="precis">Shower or two, late rain.</text>
+                <text type="probability_of_precipitation">90%</text>
+            </forecast-period>
+            <forecast-period index="3" start-time-local="2021-08-01T00:00:00+10:00" end-time-local="2021-08-02T00:00:00+10:00" start-time-utc="2021-07-31T14:00:00Z" end-time-utc="2021-08-01T14:00:00Z">
+                <element type="forecast_icon_code">12</element>
+                <element type="precipitation_range">2 to 6 mm</element>
+                <element type="air_temperature_minimum" units="Celsius">9</element>
+                <element type="air_temperature_maximum" units="Celsius">15</element>
+                <text type="precis">Rain easing to a shower or two.</text>
+                <text type="probability_of_precipitation">70%</text>
+            </forecast-period>
+            <forecast-period index="4" start-time-local="2021-08-02T00:00:00+10:00" end-time-local="2021-08-03T00:00:00+10:00" start-time-utc="2021-08-01T14:00:00Z" end-time-utc="2021-08-02T14:00:00Z">
+                <element type="forecast_icon_code">11</element>
+                <element type="precipitation_range">1 to 3 mm</element>
+                <element type="air_temperature_minimum" units="Celsius">8</element>
+                <element type="air_temperature_maximum" units="Celsius">16</element>
+                <text type="precis">Showers.</text>
+                <text type="probability_of_precipitation">80%</text>
+            </forecast-period>
+            <forecast-period index="5" start-time-local="2021-08-03T00:00:00+10:00" end-time-local="2021-08-04T00:00:00+10:00" start-time-utc="2021-08-02T14:00:00Z" end-time-utc="2021-08-03T14:00:00Z">
+                <element type="forecast_icon_code">11</element>
+                <element type="precipitation_range">1 to 4 mm</element>
+                <element type="air_temperature_minimum" units="Celsius">9</element>
+                <element type="air_temperature_maximum" units="Celsius">15</element>
+                <text type="precis">Showers.</text>
+                <text type="probability_of_precipitation">90%</text>
+            </forecast-period>
+            <forecast-period index="6" start-time-local="2021-08-04T00:00:00+10:00" end-time-local="2021-08-05T00:00:00+10:00" start-time-utc="2021-08-03T14:00:00Z" end-time-utc="2021-08-04T14:00:00Z">
+                <element type="forecast_icon_code">11</element>
+                <element type="precipitation_range">1 to 2 mm</element>
+                <element type="air_temperature_minimum" units="Celsius">8</element>
+                <element type="air_temperature_maximum" units="Celsius">15</element>
+                <text type="precis">A few showers.</text>
+                <text type="probability_of_precipitation">80%</text>
+            </forecast-period>
+            <forecast-period index="7" start-time-local="2021-08-05T00:00:00+10:00" end-time-local="2021-08-06T00:00:00+10:00" start-time-utc="2021-08-04T14:00:00Z" end-time-utc="2021-08-05T14:00:00Z">
+                <element type="forecast_icon_code">11</element>
+                <element type="precipitation_range">1 to 2 mm</element>
+                <element type="air_temperature_minimum" units="Celsius">8</element>
+                <element type="air_temperature_maximum" units="Celsius">15</element>
+                <text type="precis">A few showers.</text>
+                <text type="probability_of_precipitation">90%</text>
+            </forecast-period>
+        </area>
+        <area aac="VIC_PT025" description="Geelong" type="location" parent-aac="VIC_ME001">
+            <forecast-period index="1" start-time-local="2021-07-30T00:00:00+10:00" end-time-local="2021-07-31T00:00:00+10:00" start-time-utc="2021-07-29T14:00:00Z" end-time-utc="2021-07-30T14:00:00Z">
+                <element type="air_temperature_minimum" units="Celsius">7</element>
+                <element type="air_temperature_maximum" units="Celsius">15</element>
+            </forecast-period>
+        </area>
+        <area aac="VIC_PT037" description="Laverton" type="location" parent-aac="VIC_ME001">
+            <forecast-period index="1" start-time-local="2021-07-30T00:00:00+10:00" end-time-local="2021-07-31T00:00:00+10:00" start-time-utc="2021-07-29T14:00:00Z" end-time-utc="2021-07-30T14:00:00Z">
+                <element type="air_temperature_minimum" units="Celsius">7</element>
+                <element type="air_temperature_maximum" units="Celsius">15</element>
+            </forecast-period>
+        </area>
+        <area aac="VIC_PT073" description="Tullamarine" type="location" parent-aac="VIC_ME001">
+            <forecast-period index="1" start-time-local="2021-07-30T00:00:00+10:00" end-time-local="2021-07-31T00:00:00+10:00" start-time-utc="2021-07-29T14:00:00Z" end-time-utc="2021-07-30T14:00:00Z">
+                <element type="air_temperature_minimum" units="Celsius">6</element>
+                <element type="air_temperature_maximum" units="Celsius">14</element>
+            </forecast-period>
+        </area>
+        <area aac="VIC_PT065" description="Scoresby" type="location" parent-aac="VIC_ME001">
+            <forecast-period index="1" start-time-local="2021-07-30T00:00:00+10:00" end-time-local="2021-07-31T00:00:00+10:00" start-time-utc="2021-07-29T14:00:00Z" end-time-utc="2021-07-30T14:00:00Z">
+                <element type="air_temperature_minimum" units="Celsius">7</element>
+                <element type="air_temperature_maximum" units="Celsius">15</element>
+            </forecast-period>
+        </area>
+        <area aac="VIC_PT078" description="Watsonia" type="location" parent-aac="VIC_ME001">
+            <forecast-period index="1" start-time-local="2021-07-30T00:00:00+10:00" end-time-local="2021-07-31T00:00:00+10:00" start-time-utc="2021-07-29T14:00:00Z" end-time-utc="2021-07-30T14:00:00Z">
+                <element type="air_temperature_minimum" units="Celsius">7</element>
+                <element type="air_temperature_maximum" units="Celsius">14</element>
+            </forecast-period>
+        </area>
+        <area aac="VIC_PT047" description="Mount Dandenong" type="location" parent-aac="VIC_ME001">
+            <forecast-period index="1" start-time-local="2021-07-30T00:00:00+10:00" end-time-local="2021-07-31T00:00:00+10:00" start-time-utc="2021-07-29T14:00:00Z" end-time-utc="2021-07-30T14:00:00Z">
+                <element type="air_temperature_minimum" units="Celsius">5</element>
+                <element type="air_temperature_maximum" units="Celsius">10</element>
+            </forecast-period>
+        </area>
+        <area aac="VIC_PT082" description="Yarra Glen" type="location" parent-aac="VIC_ME001">
+            <forecast-period index="1" start-time-local="2021-07-30T00:00:00+10:00" end-time-local="2021-07-31T00:00:00+10:00" start-time-utc="2021-07-29T14:00:00Z" end-time-utc="2021-07-30T14:00:00Z">
+                <element type="air_temperature_minimum" units="Celsius">5</element>
+                <element type="air_temperature_maximum" units="Celsius">15</element>
+            </forecast-period>
+        </area>
+        <area aac="VIC_PT023" description="Frankston" type="location" parent-aac="VIC_ME001">
+            <forecast-period index="1" start-time-local="2021-07-30T00:00:00+10:00" end-time-local="2021-07-31T00:00:00+10:00" start-time-utc="2021-07-29T14:00:00Z" end-time-utc="2021-07-30T14:00:00Z">
+                <element type="air_temperature_minimum" units="Celsius">8</element>
+                <element type="air_temperature_maximum" units="Celsius">15</element>
+            </forecast-period>
+        </area>
+    </forecast>
+</product>
